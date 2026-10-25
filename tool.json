@@ -1,0 +1,39 @@
+{
+  "id": "E059",
+  "slug": "eng-de-broglie",
+  "title": "드브로이 파장 계산기",
+  "title_en": "De Broglie Wavelength Calculator",
+  "category": "양자",
+  "category_en": "Quantum physics",
+  "fields": [
+    {
+      "key": "p",
+      "label": "운동량 크기 p",
+      "label_en": "Momentum magnitude p",
+      "dimension": "momentum",
+      "example": 1e-24,
+      "constraint": "positive",
+      "display_unit": "kgms",
+      "display_value": "1e-24"
+    }
+  ],
+  "result_label": "드브로이 파장 λ",
+  "result_label_en": "De Broglie wavelength λ",
+  "result_dimension": "length",
+  "formula": "λ = h/p",
+  "purpose": "입자 운동량으로 물질파 파장 계산",
+  "purpose_en": "Calculate a matter-wave wavelength from momentum.",
+  "assumptions": "p>0. 입력은 운동량 크기다. 속력을 운동량으로 자동 환산하지 않으므로 상대론 운동량 여부는 입력자가 정한다. 파동함수·위치 불확도는 계산하지 않는다.",
+  "assumptions_en": "Required: p>0 as a momentum magnitude. Velocity is not automatically converted to momentum; supply the appropriate classical or relativistic momentum. Wavefunctions and position uncertainty are excluded.",
+  "sources": [
+    {
+      "label": "OpenStax · 6 5 de broglies matter waves",
+      "url": "https://openstax.org/books/university-physics-volume-3/pages/6-5-de-broglies-matter-waves"
+    }
+  ],
+  "condition": "",
+  "condition_en": "",
+  "site": "https://nanalab.kr/eng-de-broglie/",
+  "repository": "https://github.com/NaNaCompany/eng-de-broglie",
+  "output_unit": "m"
+}
